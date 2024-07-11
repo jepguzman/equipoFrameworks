@@ -1,6 +1,18 @@
 git@github.com:jepguzman/equipoFrameworks.git
 
+		echo "# equipoFramewoks" >> README.md
+		git init
+		git add README.md
+		git commit -m "first commit"
+		git remote add origin https://github.com/miRepositorioGit/equipoFramewoks.git
+		git push -u origin master
 
-git fetch origin main:tmp
-git rebase tmp
-git push --set-upstream origin main
+Actualización del repositorio remoto
+		git add README.md
+		git commit -m "first commit"
+		git push -u origin master
+
+
+	git fetch origin main:tmp 
+	git rebase tmp
+	git push --set-upstream origin main
